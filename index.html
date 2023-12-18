@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Получение прогноза погоды</title>
+</head>
+<style>
+    * {
+        font-size: 32px;
+    }
+body {
+    background-color: #675e7e; 
+}
+    span {
+        color: red;
+        font-size: 32px;
+    }
+</style>
+
+<body>
+    <p>Введите город: <input type="text" value="kiev" id="userInput"></p>
+    <h1>Прогноз погоды - <span id=city> </span></h1>
+    <div id="weather"></div>
+    <img id="img" />
+    <div id="sunset"></div>
+    <div id="sunrise"></div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
